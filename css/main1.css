@@ -1,0 +1,217 @@
+.main1 {
+    top: 250px;
+    left: 50%;
+    height: 700px;
+    width: 800px;
+    margin-top: -100px;
+    margin-left: -400px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(197, 0, 0);
+    padding: 3px
+}
+
+.main1 table {
+    font-size: 16px;
+    width: 800px;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.main1 td {
+    border: 3px solid rgb(0, 103, 238);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.main1 tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+
+/*第一欄最後列：左下*/
+
+.main1 tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+
+/*最後欄第一列：右上*/
+
+.main1 tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+
+
+/*最後欄第一列：右下*/
+
+.main1 tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.main1 p {
+    top: -10%;
+    right: 0%;
+    height: 30px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(255, 38, 0);
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: rgb(0, 51, 98);
+    text-shadow: #28586b 0 8px 9px, #ffffff 0px -2px 1px;
+    opacity: 0.511;
+}
+
+.list1 {
+    text-align: center;
+    bottom: 5%;
+    left: 0%;
+    height: 30px;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 4px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 174, 0);
+    padding: 1px
+}
+
+.search1 {
+    bottom: 0%;
+    left: 0%;
+    height: 50px;
+    width: 800px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 4px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: rgb(255, 174, 0);
+    padding: 1px
+}
+
+.input1 {
+    width: 50px;
+}
+
+.input2 {
+    width: 20px;
+}
+
+.input3 {
+    width: 50px;
+}
+
+.input4 {
+    width: 100px;
+    text-align: right;
+}
+
+.award1 {
+    background-color: rgb(255, 144, 144);
+}
+
+.write1 {
+    top: 10%;
+    left: 50%;
+    height: 30px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(19, 15, 255);
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: rgb(0, 51, 98);
+    text-shadow: #28586b 0 8px 9px, #ffffff 0px -2px 1px;
+    opacity: 0.511;
+}
+
+.word1 {
+    bottom: 10%;
+    left: 50%;
+    height: 30px;
+    width: 600px;
+    margin-top: 0px;
+    margin-left: -300px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(19, 15, 255);
+    padding: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: rgb(0, 51, 98);
+    text-shadow: #28586b 0 8px 9px, #ffffff 0px -2px 1px;
+    opacity: 0.511;
+}
+
+.link22 {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    padding: 0px;
+    height: 30px;
+    width: 200px;
+    margin-left: -100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    text-align: center;
+    color: black;
+    text-shadow: #000000 0 8px 9px, #ffffff 0px -2px 1px;
+    border-radius: 4px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: rgb(177, 0, 0);
+    opacity: 0.511;
+}
+
+.link22 a {
+    text-decoration: none;
+}
+
+.link22 a:hover {
+    text-shadow: #01ce61 0 8px 9px, #ffffff 0px -2px 1px;
+}
+
+.link22 a:active {
+    text-shadow: #ff0000 0 8px 9px, #ffffff 0px -2px 1px;
+}

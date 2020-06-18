@@ -1,0 +1,50 @@
+.menu {
+    left: 50%;
+    width: 800px;
+    margin-left: -400px;
+    position: absolute;
+    opacity: 0.70;
+    border-radius: 10px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: rgb(253, 114, 114);
+    padding: 3px
+}
+
+.menu table {
+    font-size: 16px;
+    width: 800px;
+    text-align: center;
+    border-collapse: separate;
+}
+
+.menu td {
+    border: 3px solid rgb(131, 75, 2);
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.menu tr:first-child td:first-child {
+    border-top-left-radius: 10px;
+}
+
+
+/*第一欄最後列：左下*/
+
+.menu tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+
+/*最後欄第一列：右上*/
+
+.menu tr:first-child td:last-child {
+    border-top-right-radius: 10px;
+}
+
+
+/*最後欄第一列：右下*/
+
+.menu tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
